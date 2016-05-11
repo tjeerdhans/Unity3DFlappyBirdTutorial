@@ -18,7 +18,7 @@ public class Generate : MonoBehaviour
         if (score > -1)
         {
             GUILayout.Label(" Score: " + score.ToString());
-        }
+        }       
     }
 
     void CreateObstacle()
